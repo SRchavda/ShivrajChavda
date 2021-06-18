@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kristi&family=Montserrat:wght@400;500&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="indax.css">
     <link rel="icon" href="imgs/icon3.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    *{
+    <script src="https://use.fontawesome.com/1b206dd11d.js"></script>
+    <style>
+        *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -213,9 +213,6 @@ label.logo{
         width: 100px;
     }
 }
-
-
-
 .page2 {
     background-color: #121b2e;
     padding: 5%;
@@ -239,10 +236,6 @@ label.logo{
     height: 300px;
     width: 300px;
 }
-
-
-
-
 .page3 {
     padding: 5%;
     position: relative;
@@ -261,7 +254,6 @@ label.logo{
     0% {right: 5%; top: 2%;}
     100% {right: 95%; top: 95%;}
 }
-
 .tab{
     margin: 50px auto 0 auto;
     align-content: center;
@@ -278,9 +270,6 @@ tr,td,table {
 .pr {
     font-size: 18px;
 }
-
-
-
 .only-photo {
     position: relative;
     margin: 5%;
@@ -292,9 +281,6 @@ tr,td,table {
     height: 100px;
     width: 100px;
 }
-
-
-
 .page4 {
     position: relative;
     background-color: #17223b;
@@ -320,9 +306,6 @@ table img {
     height: 30px;
     width: 30px;
 }
-
-
-
 .baloons img {
     position: absolute;
     height: 100px;
@@ -333,9 +316,6 @@ table img {
     0% {bottom: 5%; right: 100%;}
     100% {bottom: 100%; right: 10%;}
 }
-
-
-
 .page5 {
     margin: 5%;
     position: relative;
@@ -399,9 +379,6 @@ table img {
 .videos {
     width: 500px;
 }
-
-
-
 .footdiv {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -456,10 +433,6 @@ footer {
     margin: 0 3px;
     font-size: small;
 }
-
-
-
-
 @media screen and (max-width: 1024px) {
     .heading {
         min-height: 100vh;
@@ -690,10 +663,8 @@ footer {
             width: 70px;
         }
     }
-}</style>
-    
-
-    <script src="https://use.fontawesome.com/1b206dd11d.js"></script>
+}
+</style>
 </head>
 
 
@@ -713,8 +684,6 @@ footer {
             </nav>
         <!-- </div> -->
     </header>
-
-
     <div class="containar" id="home">
         <main>
             <div class="heading">
@@ -737,8 +706,6 @@ footer {
                 <img class="birds2" src="imgs/birds.png" alt="">
                 <img class="wave" src="imgs/wave.png" alt="">
             </div>
-
-
             <section class="page2" id="about">
                 <div class="profile">
                     <div class="sech1"><h1>Ab<span class="underline">out </span>Me</h1></div>
@@ -746,9 +713,7 @@ footer {
                     <p class="aboutp"><span class="underline">Hello !</span> , I'm Shivraj Chavda <span class="underline"><b>SR</b></span>. I'm a learner from India who likes his hands on the keyboard, loves to be Creative and Camera and Photography. Maybe that's sound super cheesy :)) but yehh that's true! Currently I'm pursing 2nd year of Computer Engineering and also Working on my Web Devlopment skills as side hustle and try to get helpful output via some projects. And here you are. It's my first Portfolio on which I'm currently working.</p>
                 </div>
             </section>
-
             <hr>
-
             <section class="page3" id="education">
                 <div class="edu">
                     <h1>Ed<span class="underline">ucati</span>on</h1>
@@ -771,14 +736,10 @@ footer {
                     </div>
                 </div>
             </section>
-
-            
             <div class="only-photo">
                 <div class="paper-plan"><img src="imgs/paper-plane.png" alt=""></div>
             </div>
-            
             <hr>
-            
             <section class="page4">
                 <div class="skill">
                     <h1>S<span class="underline">kill</span>s</h1>
@@ -809,10 +770,7 @@ footer {
                     </div>
                 </div>
             </section>
-
             <hr>
-
-
             <section class="page5">
                 <div class="baloons"><img src="imgs/ballons.png" alt=""></div>
                 <div class="work">
@@ -879,9 +837,7 @@ footer {
                     </div>
                 </div>
             </section>
-
             <hr>
-
             <div class="footdiv" id="contact">
                 <footer>
                     <div class="foot">
@@ -904,11 +860,8 @@ footer {
                     </div>
                 </footer>
             </div>
-
         </main>
-    </div>
-    
+    </div>    
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
 </body>
 </html>
