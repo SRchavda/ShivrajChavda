@@ -10,6 +10,7 @@
     <link rel="icon" href="imgs/icon3.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://use.fontawesome.com/1b206dd11d.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <style>
         *{
     margin: 0;
@@ -860,7 +861,6 @@ footer {
                 </footer>
             </div>
         </main>
-    </div>    
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    </div>
 </body>
 </html>
